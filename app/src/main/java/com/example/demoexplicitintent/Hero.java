@@ -1,6 +1,8 @@
 package com.example.demoexplicitintent;
 
-public class Hero {
+import java.io.Serializable;
+
+public class Hero implements Serializable {
     private String name;
     private int strength;
     private int technicalProwess;
